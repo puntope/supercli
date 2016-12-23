@@ -1,0 +1,23 @@
+{
+  "name": "supercli/supercli",
+  "description": "CLI Utils for web developers.",
+  "keywords": ["cli","developer","utils"],
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Miguel Pérez Pellicer",
+      "email": "miguelperezpellicer@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Supercli": "src/"
+    }
+  },
+  "require": {
+    "symfony/console": "~2.3|~3.0"
+  },
+  "bin": [
+    "supercli"
+  ]
+}
